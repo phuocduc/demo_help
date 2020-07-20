@@ -71,7 +71,7 @@ export default function Gallery() {
                     <a
                       href="https://github.com/llamadelrey/CoderSchool-imdb"
                       className="btn btn-outline-dark mx-2"
-                      target="_blank"
+                      target="_blank" rel="noopener noreferrer"
                     >
                       Repository
                     </a>
@@ -79,6 +79,7 @@ export default function Gallery() {
                       href="https://baileyimdbclone.netlify.com/"
                       target="_blank"
                       className="btn btn-outline-dark ml-2"
+                      rel="noopener noreferrer"
                     >
                       Demo
                     </a>
