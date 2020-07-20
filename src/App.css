@@ -1,0 +1,123 @@
+body,
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+main {
+  font-family: "Saira Extra Condensed", sans-serif;
+}
+
+main p {
+  font-family: "Muli", sans-serif;
+}
+
+main .header {
+  font-size: 5rem;
+}
+
+main .title {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+main h3 {
+  text-transform: uppercase;
+}
+
+main h4 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+main .description {
+  color: #a9a9a9;
+}
+
+main .job-description {
+  color: #a9a9a9;
+  font-style: italic;
+}
+
+.nav-text {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.programming-icons img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.programming-icons img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+@media (min-width: 768px) {
+  aside {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    height: 100%;
+  }
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: black;
+}
+
+.social-icons a:hover {
+  text-decoration: none;
+  color: #bd5d38;
+}
+
+.proficiency {
+  color: #bd5d38;
+}
+
+.card-deck {
+  min-width: 100px;
+}
+
+.reading-progress-bar {
+  position: sticky;
+  height: 0.5rem;
+  top: 0;
+  background-color: #9bc53d;
+  z-index: 1000;
+}
+
+nav img {
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+
+nav a span {
+  font-weight: 800;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#9bc53d;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+}
+
+.nav-item .float:hover {
+  text-decoration: none;
+  color:#FFF;
+}
+
+.my-float{
+	margin-top:22px;
+}
